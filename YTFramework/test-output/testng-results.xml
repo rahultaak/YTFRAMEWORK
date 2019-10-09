@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76646" started-at="2019-10-09T06:50:18Z" finished-at="2019-10-09T06:51:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76646" started-at="2019-10-09T06:50:18Z" finished-at="2019-10-09T06:51:34Z">
+      <class name="org.testing.TestScripts.TC3">
+        <test-method status="PASS" signature="browserlounch()[pri:0, instance:org.testing.TestScripts.TC3@77caeb3e]" name="browserlounch" is-config="true" duration-ms="36839" started-at="2019-10-09T12:20:18Z" finished-at="2019-10-09T12:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserlounch -->
+        <test-method status="PASS" signature="ytc2()[pri:0, instance:org.testing.TestScripts.TC3@77caeb3e]" name="ytc2" duration-ms="38665" started-at="2019-10-09T12:20:54Z" finished-at="2019-10-09T12:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ytc2 -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:org.testing.TestScripts.TC3@77caeb3e]" name="browserclose" is-config="true" duration-ms="1105" started-at="2019-10-09T12:21:33Z" finished-at="2019-10-09T12:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- org.testing.TestScripts.TC3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

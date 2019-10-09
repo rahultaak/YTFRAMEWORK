@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testing.TestScripts.TC5">
+        <methods>
+          <include name="browserlounch"/>
+          <include name="browserclose"/>
+          <include name="ytc2"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC3">
+        <methods>
+          <include name="browserlounch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="browserlounch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC1">
+        <methods>
+          <include name="browserlounch"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
